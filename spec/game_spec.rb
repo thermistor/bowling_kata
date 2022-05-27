@@ -19,6 +19,7 @@ RSpec.describe Game do
     before do
       10.times do
         described_class.roll(9)
+        described_class.roll(0)
       end
     end
 
